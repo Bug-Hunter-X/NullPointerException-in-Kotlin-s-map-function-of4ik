@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Kotlin: a NullPointerException occurring when using the map function on a list containing null values. The `bug.kt` file shows the problematic code.  The solution, provided in `bugSolution.kt`, uses the `mapNotNull` function to safely handle null values, or a safe-call operator and elvis operator.
